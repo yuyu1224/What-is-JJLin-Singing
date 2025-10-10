@@ -24,7 +24,7 @@ export default {
     getBackgroundStyle(index) {
     const imageIndex = index <= 21 ? index : index % 21;
     return {
-      backgroundImage: `url('/images/${imageIndex}.jpg')`  // 使用 public 目录下的图片路径
+      backgroundImage: `url('./images/${imageIndex}.jpg')`  // 使用 public 目录下的图片路径
     };
   }
   }

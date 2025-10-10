@@ -73,7 +73,7 @@ export default {
     const playMusic = (songName) => {
       // 确保音频播放器存在
       if (audioPlayer.value) {
-        audioPlayer.value.src = `/videos/${songName}.mp3`; // 设置音频源
+        audioPlayer.value.src = `./videos/${songName}.mp3`; // 设置音频源
         audioPlayer.value.style.display = "block"; // 显示音频播放器
         audioPlayer.value.load(); // 加载音频
         audioPlayer.value.play(); // 播放音频
@@ -266,6 +266,8 @@ export default {
       isAudioPlayerVisible,
       closeLyricsModal,
       showLyrics,
+      playMusic, // ✅ 一定要返回！
+      audioPlayer, 
     };
   },
 };
