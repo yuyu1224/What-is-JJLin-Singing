@@ -1,28 +1,19 @@
-# vis
+# 林俊杰在唱什么？----交互叙事可视化
 
-### Show Vedio
-https://github.com/Ashleyyyyy663/What-is-JJLin-Singing-/raw/master/Demo.mp4
+### 打开Demo体验网站：
+https://ashleyyyyy663.github.io/What-is-JJLin-Singing-/
 
-
-## Project setup
+## 初次clone后需要的Project setup：
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 在本地服务器上跑起来看效果
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包成静态文件
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
