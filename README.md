@@ -1,7 +1,7 @@
 # 林俊杰在唱什么？----交互叙事可视化
 
 ### 打开Demo体验网站：
-https://ashleyyyyy663.github.io/What-is-JJLin-Singing-/
+https://yuyu1224.github.io/What-is-JJLin-Singing/
 
 ## 初次clone后需要的Project setup：
 ```
