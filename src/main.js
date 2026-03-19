@@ -1,6 +1,6 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import './assets/styles.css';
+import {createApp} from "vue";
+import App from "./App.vue";
+import "./assets/styles.css";
 const app = createApp(App);
 
-app.mount('#app');  // 挂载 Vue 实例
+app.mount("#app"); // 挂载 Vue 实例
